@@ -1,0 +1,67 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: "rgb(72,75,106)";    
+}
+
+.productPage{
+    padding: 5px;
+}
+
+.productPage .productLink {
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#03697a, #38f7cd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.productPage .productLink .cartPlus {
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    color:#03697a;
+}
+
+.iconsNav {
+    display: flex;
+    justify-content: space-between;
+    padding-right:10px;
+}
+
+.iconsNav .plus .plusSquare{
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    color:#03697a;
+}
+
+.iconsNav .fiSun{
+    font-weight: bolder;
+    font-size: larger;
+    color:white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.iconsNav .fiMoon{
+    font-weight: bolder;
+    font-size: larger;
+    border: 1px solid #03697a;
+    color:#03697a;
+    padding: 5px;
+    border-radius:5px;
+    padding-right: 5px;
+    cursor: pointer;
+    
+}

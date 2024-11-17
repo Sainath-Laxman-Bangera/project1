@@ -1,0 +1,20 @@
+.productPage{
+    padding-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding: 5px;
+    width: auto;
+}
+
+.currentProduct {
+   background: -webkit-linear-gradient(#03697a, #38f7cd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.productPage > * {
+    margin:1em 0;
+}

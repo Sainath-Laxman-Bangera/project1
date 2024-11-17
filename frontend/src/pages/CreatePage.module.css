@@ -1,0 +1,61 @@
+.createPage{
+    padding-top:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+}
+
+.createModel{
+    width:90%;
+    max-width: 400px;
+    height:auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 20px;
+    animation-name: model;
+    animation-duration: 4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@keyframes model {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.createModel h1{
+    width:100%;
+    text-align: center;
+}
+
+.createModel input {
+    width:100%;
+    align-items: center;
+    margin:5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.createModel .buttonsBOX {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonsBOX button {
+    padding: 5px;
+    margin-right:5px;
+    margin-top:10px;
+    color:black;
+    font-weight: bolder;
+}
+
+.buttonsBOX .button {
+    padding: 5px;
+    margin-right:5px;
+    margin-top:10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}

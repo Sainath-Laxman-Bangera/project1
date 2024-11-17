@@ -1,0 +1,33 @@
+.toast{
+    position: fixed;
+    display: block;
+    top:90%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    max-width:400px;
+    height:auto;
+    width:90%;
+    border-radius: 5px;
+    padding: 5px;
+    animation-name:toastAnimate;
+    animation-duration: 1s;
+    z-index: 999;
+}
+
+.progressToast {
+    border-bottom: 10px solid darkgreen;
+    margin-top: 15px;
+    width: 100%;
+    animation-name: progressbar;
+    animation-duration: 3s;
+}
+@keyframes toastAnimate {
+    from {opacity:0.5}
+    to {opacity:1}
+}
+
+@keyframes progressbar {
+    from {width:0%;}
+    to {width:100% }
+    
+}
